@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting started · Jga7 Mod Tool</title>
+<meta name="description" content="How to start Jga7 Mod Tool, make an Amicia mod, install it and restore the original game files.">
+<link rel="icon" href="images/gumroad_thumbnail_600x600.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="images/gumroad_thumbnail_600x600.png" alt="Jga7 Mod Tool icon" width="36" height="36">Jga7 Mod Tool</a>
+    <nav class="nav">
+      <a href="guide.html" aria-current="page">Guide</a>
+      <a href="faq.html">FAQ</a>
+      <a href="changelog.html">Changelog</a>
+      <a class="btn small" href="index.html#download">Download</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page">
+  <div class="wrap">
+    <h1>Getting started</h1>
+    <p class="mute">Jga7 Mod Tool 1.0 · Windows 10 or 11 · A Plague Tale: Innocence on Steam</p>
+
+    <h2>1. Start</h2>
+    <p>Unzip the folder anywhere (not inside the game folder), then double-click <code>JgaModTool.exe</code>. Nothing is installed on your PC, and nothing goes to the registry or Program Files.</p>
+    <img class="shot" src="images/screens/01%20Home.png" alt="Home page" loading="lazy">
+    <p>The first page shows the last installed mod and has an <strong>Open mods folder</strong> button. If Steam updated or verified the game, the tool tells you at start.</p>
+
+    <h2>2. Make a mod</h2>
+    <p>Tick <strong>Model</strong>, <strong>Hair</strong> or <strong>Eyes</strong>, drop your files, then <strong>Build</strong>.</p>
+    <img class="shot" src="images/screens/02%20What%20to%20change.png" alt="What to change page" loading="lazy">
+
+    <h3>Model</h3>
+    <p>Your Blender model replaces Amicia's whole body in every chapter: clothes, skin, head and hands. Only the game's eyes and lashes stay.</p>
+    <ul>
+      <li>Two parts: <strong>Cloth</strong> (cloth shading) and <strong>Skin</strong> (skin shading), each with its own textures: Color, Normal, Roughness, Metallic.</li>
+      <li>Square images of 1024, 2048 or 4096 (4K); each part can have its own size.</li>
+      <li>Chapter groups (Chapter I, Chapter II, main chapters, final chapters) are all on by default and can be unticked.</li>
+    </ul>
+    <img class="shot" src="images/screens/03%20Model.png" alt="Model page" loading="lazy">
+    <img class="shot" src="images/screens/04%20Model%20%28textures%29.png" alt="Model page, textures" loading="lazy">
+
+    <h3>Hair</h3>
+    <p>Your own hairstyle with your own Color and Alpha images (or one RGBA image) and an optional Normal image. Used in all chapters.</p>
+    <img class="shot" src="images/screens/05%20Hair.png" alt="Hair page" loading="lazy">
+
+    <h3>Eyes</h3>
+    <p>A new eye color from one image, painted on the game's iris image.</p>
+    <img class="shot" src="images/screens/06%20Eyes.png" alt="Eyes page" loading="lazy">
+
+    <h3>Build</h3>
+    <p>The tool checks your files first and tells you exactly what to fix before it builds. The finished mod is a small folder and .zip with only your changes, saved in your user folder under "Amicia Mods".</p>
+    <p class="note">Building with 4096 textures takes long: about 25 minutes per game file on a slower PC. About 4 GB of free disk space is needed while building.</p>
+    <img class="shot" src="images/screens/07%20Build.png" alt="Build page" loading="lazy">
+    <img class="shot" src="images/screens/09%20Mod%20ready.png" alt="Mod ready page" loading="lazy">
+
+    <h2>3. Install and restore</h2>
+    <p>Drop a mod folder or .zip, then <strong>Install</strong>. Your original game files are saved first and every file is checked before it is copied in. <strong>Restore</strong> puts the original files back at any time. One Amicia mod at a time.</p>
+    <p>If the game is inside Program Files, Windows asks for permission once.</p>
+    <img class="shot" src="images/screens/10%20Install%20a%20mod.png" alt="Install a mod page" loading="lazy">
+
+    <h2>4. Kits for Blender</h2>
+    <p>The tool makes the kits from your own game files the first time (they are never shared):</p>
+    <ul>
+      <li><strong>0 Optimized Kit</strong>: Jga7's optimized Blender file (Blender 5.0 or newer)</li>
+      <li>A clean slate with Amicia's skeleton and a weighted body</li>
+      <li>Amicia's original parts, for reference</li>
+      <li>Seamless textures: skin, cloth, leather, metal</li>
+      <li>A hair kit and a head kit</li>
+    </ul>
+    <p>The tool's <strong>How to export your model</strong> page gives the exact glTF export settings.</p>
+    <img class="shot" src="images/screens/12%20How%20to%20export.png" alt="How to export page" loading="lazy">
+
+    <h2>If anything goes wrong</h2>
+    <p>Press Restore in the tool, or let Steam check the game files: Library › the game › Properties › Installed Files › Verify integrity.</p>
+    <p><a href="faq.html">More answers in the FAQ</a></p>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Made by Jga7. This tool was created with the help of AI.</p>
+    <p>Unofficial fan-made tool. Not made, approved or supported by the game's developers or publishers.</p>
+    <div class="links">
+      <a href="https://fdxskd.gumroad.com/l/ludzha">Gumroad</a>
+      <a href="https://www.nexusmods.com/aplaguetaleinnocence/mods/48">Nexus Mods</a>
+      <a href="guide.html">Guide</a>
+      <a href="faq.html">FAQ</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
