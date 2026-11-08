@@ -1,7 +1,7 @@
 :root {
-  --bg: #070708; --panel: #0d0d0f; --card: #18171d; --line: #302c3a;
-  --ink: #e6e6ea; --mute: #928f9c; --accent: #5b2fc9;
-  --green: #4ce04c; --accent-dark: #1f1638; --outline: #7a5cd6;
+  --bg: #060607; --panel: #0d0d10; --card: #141318; --line: #2a2730;
+  --ink: #e6e6ea; --mute: #928f9c; --accent: #8f0041;
+  --green: #00ffa1; --accent-dark: #2a0a18; --outline: #c21a5a;
 }
 * { box-sizing: border-box; }
 html { color-scheme: dark; }
@@ -11,7 +11,7 @@ body {
   font-size: 17px; line-height: 1.6;
 }
 img { max-width: 100%; height: auto; display: block; }
-a { color: var(--outline); }
+a { color: var(--green); }
 a:hover { color: var(--ink); }
 h1, h2, h3 { font-weight: 700; line-height: 1.2; margin: 0 0 .5em; }
 h1 { font-size: clamp(2rem, 6vw, 3.2rem); }
